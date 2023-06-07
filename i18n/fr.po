@@ -1,0 +1,144 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_import_partner
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-01 08:38+0000\n"
+"PO-Revision-Date: 2021-06-01 08:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bi_import_partner
+#: code:addons/bi_import_partner/models/partner.py:0
+#, python-format
+msgid "\"%s\" Customer/Vendor already exist."
+msgstr "\"%s\" Le client / fournisseur existe déjà."
+
+#. module: bi_import_partner
+#: code:addons/bi_import_partner/models/partner.py:0
+#: code:addons/bi_import_partner/models/partner.py:0
+#, python-format
+msgid "%s partner not found."
+msgstr "%s partenaire introuvable."
+
+#. module: bi_import_partner
+#: model:ir.model.fields.selection,name:bi_import_partner.selection__gen_partner__import_option__csv
+msgid "CSV File"
+msgstr "Fichier CSV"
+
+#. module: bi_import_partner
+#: model:ir.model.fields.selection,name:bi_import_partner.selection__gen_partner__partner_option__create
+msgid "Create Partner"
+msgstr "Créer un partenaire"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__file
+msgid "File"
+msgstr "Déposer"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__file_name
+msgid "File Name"
+msgstr "Nom de fichier"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__id
+msgid "ID"
+msgstr "identifiant"
+
+#. module: bi_import_partner
+#: model_terms:ir.ui.view,arch_db:bi_import_partner.gen_partner_wizard_view
+msgid "Import"
+msgstr "Importer"
+
+#. module: bi_import_partner
+#: model:ir.ui.menu,name:bi_import_partner.gen_import_data
+msgid "Import Data"
+msgstr "Importer des données"
+
+#. module: bi_import_partner
+#: model:ir.actions.act_window,name:bi_import_partner.action_gen_partner_import_wizard
+#: model:ir.ui.menu,name:bi_import_partner.gen_partner_import_menu
+#: model_terms:ir.ui.view,arch_db:bi_import_partner.gen_partner_wizard_view
+msgid "Import Partner"
+msgstr "Partenaire d'importation"
+
+#. module: bi_import_partner
+#: code:addons/bi_import_partner/models/partner.py:0
+#, python-format
+msgid "Invalid file!"
+msgstr "Fichier non valide!"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__partner_option
+msgid "Option"
+msgstr "Option"
+
+#. module: bi_import_partner
+#: code:addons/bi_import_partner/models/partner.py:0
+#, python-format
+msgid "Please upload only csv file.!"
+msgstr "Veuillez télécharger uniquement un fichier csv.!"
+
+#. module: bi_import_partner
+#: code:addons/bi_import_partner/models/partner.py:0
+#, python-format
+msgid "Please upload only xls file.!"
+msgstr "Veuillez télécharger uniquement le fichier xls.!"
+
+#. module: bi_import_partner
+#: model:ir.model.fields,field_description:bi_import_partner.field_gen_partner__import_option
+msgid "Select"
+msgstr "Sélectionner"
+
+#. module: bi_import_partner
+#: model:ir.model.fields.selection,name:bi_import_partner.selection__gen_partner__partner_option__update
+msgid "Update Partner"
+msgstr "Mettre à jour le partenaire"
+
+#. module: bi_import_partner
+#: model:ir.model.fields.selection,name:bi_import_partner.selection__gen_partner__import_option__xls
+msgid "XLS File"
+msgstr "Fichier XLS"
+
+#. module: bi_import_partner
+#: model:ir.model,name:bi_import_partner.model_gen_partner
+msgid "gen.partner"
+msgstr ""

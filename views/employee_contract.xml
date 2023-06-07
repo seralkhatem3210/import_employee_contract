@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<record id="gen_employee_contract_wizard_view" model="ir.ui.view">
+			<field name="name">wizard for import employee_contract from csv and excel file </field>
+			<field name="model">gen.employee.contract</field>
+			<field name="arch" type="xml">
+				<form string="Import employee_contract">
+					<group>
+                        <field name="import_option" widget="radio" />
+                    </group>
+                    <group>
+                        <field name="employee_contract_option" widget="radio" />
+                    </group>
+					<group>
+						<field name="file" filename="file_name" />
+						<field name="file_name" invisible="1"/>
+					</group>
+					<footer>
+						<button name="import_employee_contract" string="Import" type="object" />
+						<div style="float: right;">
+                            <strong>Download Sample:</strong>
+                                <a role="button" href="/import_employee_contract/static/SampleXLS-CSVFile/employee_contract.csv" class="btn-primary" style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;">
+                                <i class="fa fa-download"/>
+                                CSV file
+                                </a>
+                                <a role="button" href="/import_employee_contract/static/SampleXLS-CSVFile/employee_contract.xlsx" class="btn-primary" style="font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;">
+                                <i class="fa fa-download"/>
+                                Excel file
+                                </a>
+                        </div>
+					</footer>
+				</form>
+			</field>
+		</record>
+
+		<record id="action_gen_employee_contract_import_wizard" model="ir.actions.act_window">
+			<field name="name">Import employee_contract</field>
+			<field name="res_model">gen.employee.contract</field>
+			
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+
+		<menuitem id="gen_import_data_contract" name="Import Employee Contrct" sequence="15"/> <!-- parent="contacts.res_employee_contract_menu_config"-->
+		
+		<menuitem action="action_gen_employee_contract_import_wizard" id="gen_employee_contract_contract_import_menu"
+			parent="gen_import_data_contract" />
+
+	</data>
+</odoo>
+ 
